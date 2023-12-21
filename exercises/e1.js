@@ -5,7 +5,7 @@
 /**
  * ====================================================
  * Create a function to work as follows:
-  * The function name is 'logMessage' strictly.
+  * The function name is 'logMessage' strictly. 
   * The function MUST use NAMED function syntax.
   * The function logs a message in the console.
   * The function does NOT require any arguments.
@@ -14,9 +14,11 @@
 */
 
 // Your code goes here
+function logMessage() {
+  console.log('Hello, World!');
+}
 
-
-
+logMessage();
 
 /**
  * =============================================================
@@ -30,7 +32,11 @@
 */
 
 // Your code goes here...
+function logMyMessage(message) {
+  console.log(message);
+}
 
+logMyMessage("Hello again");
 
 
 
@@ -45,7 +51,11 @@
 */
 
 // Your code goes here...
+function logMessageWithMyName(name) {
+  console.log('My name is ' + name + '!');
+}
 
+logMessageWithMyName('Jeff');
 
 
 
@@ -61,7 +71,11 @@
 */
 
 // Your code goes here...
+function logMyInfo(name, age) {
+  console.log('My name is ' + name + '.' + ' I am ' + age + ' years old!');
+}
 
+logMyInfo('Jeff', 32);
 
 
 
